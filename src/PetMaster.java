@@ -6,7 +6,7 @@ public class PetMaster {
     String petReaction;
     Pet myPet = new Pet();
     myPet.eat();
-    petReaction = myPet.say("�����!! �����!!");
+    petReaction = myPet.say("Чик! Чирик!!");
     System.out.print(petReaction);
     myPet.sleep();
 	}
