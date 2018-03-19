@@ -1,0 +1,12 @@
+
+public class Pet_1 {
+
+       int age;
+       float weight;
+       float height;
+       String color;
+       
+       public void sleep () {
+    	   System.out.println ("Спокойной ночи! До завтра!");
+       }
+}
