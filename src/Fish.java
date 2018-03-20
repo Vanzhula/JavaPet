@@ -10,7 +10,6 @@ public class Fish extends Pet {
                 + currentDepth + " метров ниже уровня моря");
         return currentDepth;
     }
-
     @Override
         public String say(String something) {
         return "Ты чё, не знаеш - рыбы не умеют разговаривать!";
