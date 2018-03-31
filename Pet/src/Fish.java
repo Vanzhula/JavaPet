@@ -14,10 +14,6 @@ public class Fish extends Pet {
             System.out.println("Я на глубине  " + currentDepth +
                                                      " метров");
         }
-//        System.out.println("Ныряю на глубину "
-//                + howDeep + " метров");
-//        System.out.println("Я на глубине "
-//                + currentDepth + " метров ниже уровня моря");
         return currentDepth;
     }
     @Override
