@@ -26,4 +26,5 @@ public class ReportCard {
         yourGrade = rc.convertGrades(88);
         System.out.println("Ваша третья оценка " + yourGrade);
     }
-}
+
+    }
