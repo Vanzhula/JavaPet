@@ -1,7 +1,17 @@
 
 public class Fish extends Pet {
-    int currentDepth = 0;
+//    int currentDepth = 0;
+// Специальный метод - конструктор для присвоения значения, может быть пустым
+int currentDepth;
 
+/**    Fish(int startingPosition){
+        currentDepth=startingPosition;
+    }
+*/
+//экземпляр класса Fish указывает на самого себя с помощью слова this.
+    Fish(int currentDepth){
+        this.currentDepth = currentDepth;
+    }
     public int dive(int howDeep) {
         currentDepth = currentDepth + howDeep;
         if (currentDepth > 100) {

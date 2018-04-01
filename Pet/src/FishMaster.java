@@ -1,6 +1,6 @@
 public class FishMaster {
     public static void main(String[] args) {
-        Fish myFish = new Fish();
+        Fish myFish = new Fish(20);
 //   Опускаем рыбу на 100 м
         myFish.dive(2);
         myFish.dive(97);

@@ -17,14 +17,32 @@ public class ReportCard {
         }
         return grade;
     }
-    public static void main(String[] args){
+/**    public static void main(String[] args){
         ReportCard rc = new ReportCard();
-        char yourGrade = rc.convertGrades(988);
+        char yourGrade = rc.convertGrades(98);
         System.out.println("Ваша первая оценка " + yourGrade);
         yourGrade = rc.convertGrades(79);
         System.out.println("Ваша вторая оценка " + yourGrade);
         yourGrade = rc.convertGrades(88);
         System.out.println("Ваша третья оценка " + yourGrade);
     }
-
+*/
+    public static void main(String[] args){
+        ReportCard rc = new ReportCard();
+        char yourGrade = rc.convertGrades(98);
+        switch (yourGrade){
+            case 'A':
+                System.out.println("Превосходная работа!");
+                break;
+            case 'B':
+                System.out.println("Хорошая работа!");
+                break;
+            case 'C':
+                System.out.println("Надо подтянуть знания!");
+                break;
+            case 'D':
+                System.out.println("Будь посерьёзнее!");
+                break;
+        }
+    }
     }
