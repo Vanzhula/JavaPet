@@ -9,9 +9,9 @@ public class Players {
                 players[2] = "Anna";
                 players[3] = "Gregory";
         String theWinner = players[1];
-        for (counter=0; counter <totalPlayers; counter++){
-            String thePlayer = players[counter];
-        System.out.println("Поздравляем, " + theWinner + "!");
+           for (counter=0; counter <totalPlayers; counter++){
+           String thePlayer = players[counter];
+           System.out.println("Поздравляем, " + thePlayer + "!");
+       }
     }
 }
-
